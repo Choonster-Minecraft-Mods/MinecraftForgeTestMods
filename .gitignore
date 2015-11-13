@@ -1,6 +1,7 @@
 /*
 /*/
-/src/forge/
+/src/forge/java/net/minecraftforge/debug/
+/src/forge/resources/
 !/src/
 !.gitignore
 !gradlew*
