@@ -34,21 +34,6 @@ sourceSets.main {
     resources.srcDir 'src/forge/resources'
 }
 
-repositories {
-    maven { url = "http://chickenbones.net/maven/" }
-}
-
-/*dependencies {
-    runtime "codechicken:CodeChickenLib:${mc_version}-${ccl_version}:dev"
-    runtime "codechicken:CodeChickenLib:${mc_version}-${ccl_version}:src"
-
-    runtime "codechicken:CodeChickenCore:${mc_version}-${ccc_version}:dev"
-    runtime "codechicken:CodeChickenCore:${mc_version}-${ccc_version}:src"
-
-    runtime "codechicken:NotEnoughItems:${mc_version}-${nei_version}:dev"
-    runtime "codechicken:NotEnoughItems:${mc_version}-${nei_version}:src"
-}*/
-
 processResources
 {
     // this will ensure that this task is redone when the versions change.
